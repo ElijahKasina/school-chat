@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:4000"); // CHANGE to VPS domain later
+const socket = io("https://school-chat-4tlg.onrender.com"); // CHANGE to VPS domain later
 
 function App() {
   const [groupId, setGroupId] = useState("");
